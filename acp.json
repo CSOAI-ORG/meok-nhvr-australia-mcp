@@ -1,0 +1,26 @@
+{
+  "acpVersion": "0.1",
+  "agent": {
+    "name": "meok-nhvr-australia-mcp",
+    "description": "Australia National Heavy Vehicle Regulator (NHVR) compliance MCP. Heavy Vehicle National Law",
+    "version": "1.0.0",
+    "provider": "MEOK AI Labs",
+    "interfaces": [
+      {
+        "type": "mcp",
+        "transport": "stdio",
+        "package": "meok-nhvr-australia-mcp"
+      }
+    ],
+    "capabilities": [
+      "check_fatigue_management",
+      "check_nhvas_module_compliance",
+      "check_chain_of_responsibility",
+      "check_pbs_vehicle_compliance",
+      "check_ewd_compliance",
+      "check_state_specific_rules",
+      "check_mass_management",
+      "prepare_nhvr_audit_pack"
+    ]
+  }
+}

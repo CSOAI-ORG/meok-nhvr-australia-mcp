@@ -1,0 +1,95 @@
+{
+  "name": "meok-nhvr-australia-mcp",
+  "description": "Australia National Heavy Vehicle Regulator (NHVR) compliance MCP. Heavy Vehicle National Law",
+  "url": "https://proofof.ai/scorecard/meok-nhvr-australia-mcp.html",
+  "version": "1.0.0",
+  "protocolVersion": "0.2.0",
+  "provider": {
+    "organization": "MEOK AI Labs",
+    "url": "https://meok.ai"
+  },
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false
+  },
+  "defaultInputModes": [
+    "text"
+  ],
+  "defaultOutputModes": [
+    "text"
+  ],
+  "skills": [
+    {
+      "id": "check_fatigue_management",
+      "name": "Check Fatigue Management",
+      "description": "check_fatigue_management via meok-nhvr-australia-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "check_nhvas_module_compliance",
+      "name": "Check Nhvas Module Compliance",
+      "description": "check_nhvas_module_compliance via meok-nhvr-australia-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "check_chain_of_responsibility",
+      "name": "Check Chain Of Responsibility",
+      "description": "check_chain_of_responsibility via meok-nhvr-australia-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "check_pbs_vehicle_compliance",
+      "name": "Check Pbs Vehicle Compliance",
+      "description": "check_pbs_vehicle_compliance via meok-nhvr-australia-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "check_ewd_compliance",
+      "name": "Check Ewd Compliance",
+      "description": "check_ewd_compliance via meok-nhvr-australia-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "check_state_specific_rules",
+      "name": "Check State Specific Rules",
+      "description": "check_state_specific_rules via meok-nhvr-australia-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "check_mass_management",
+      "name": "Check Mass Management",
+      "description": "check_mass_management via meok-nhvr-australia-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "prepare_nhvr_audit_pack",
+      "name": "Prepare Nhvr Audit Pack",
+      "description": "prepare_nhvr_audit_pack via meok-nhvr-australia-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    }
+  ]
+}

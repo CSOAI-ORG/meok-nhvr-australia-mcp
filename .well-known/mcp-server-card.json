@@ -1,0 +1,37 @@
+{
+  "name": "meok-nhvr-australia-mcp",
+  "title": "Meok Nhvr Australia Mcp",
+  "description": "Australia National Heavy Vehicle Regulator (NHVR) compliance MCP. Heavy Vehicle National Law fatigue (BFM/AFM), NHVAS modules (Mass/Maintenance/Fatigue), Chain of Responsibility, Performance-Based Standards (PBS), Electronic Work Diary (EWD), state-specific rules. By MEOK AI Labs.",
+  "version": "1.0.0",
+  "homepage": "https://meok.ai",
+  "license": "MIT",
+  "transport": {
+    "type": "stdio"
+  },
+  "tools": [
+    {
+      "name": "check_fatigue_management"
+    },
+    {
+      "name": "check_nhvas_module_compliance"
+    },
+    {
+      "name": "check_chain_of_responsibility"
+    },
+    {
+      "name": "check_pbs_vehicle_compliance"
+    },
+    {
+      "name": "check_ewd_compliance"
+    },
+    {
+      "name": "check_state_specific_rules"
+    },
+    {
+      "name": "check_mass_management"
+    },
+    {
+      "name": "prepare_nhvr_audit_pack"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+name: meok-nhvr-australia-mcp
+description: 'Australia National Heavy Vehicle Regulator (NHVR) compliance MCP. Heavy Vehicle National Law'
+version: 1.0.0
+author: MEOK AI Labs
+homepage: https://proofof.ai
+repository: https://github.com/CSOAI-ORG/meok-nhvr-australia-mcp
+license: MIT
+categories:
+- compliance
+- governance
+tools:
+- name: check_fatigue_management
+  description: check fatigue management
+- name: check_nhvas_module_compliance
+  description: check nhvas module compliance
+- name: check_chain_of_responsibility
+  description: check chain of responsibility
+- name: check_pbs_vehicle_compliance
+  description: check pbs vehicle compliance
+- name: check_ewd_compliance
+  description: check ewd compliance
+- name: check_state_specific_rules
+  description: check state specific rules
+- name: check_mass_management
+  description: check mass management
+- name: prepare_nhvr_audit_pack
+  description: prepare nhvr audit pack
+build:
+  type: python
+  entrypoint: server.py
+  dependencies:
+  - mcp>=1.0.0
+runtime:
+  python: '>=3.10'

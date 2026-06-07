@@ -1,0 +1,21 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.CSOAI-ORG/meok-nhvr-australia-mcp",
+  "description": "Australia National Heavy Vehicle Regulator (NHVR) compliance MCP. Heavy Vehicle National Law",
+  "version": "1.0.0",
+  "repository": {
+    "url": "https://github.com/CSOAI-ORG/meok-nhvr-australia-mcp",
+    "source": "github"
+  },
+  "packages": [
+    {
+      "identifier": "meok-nhvr-australia-mcp",
+      "version": "1.0.0",
+      "transport": {
+        "type": "stdio"
+      },
+      "registryType": "pypi",
+      "runtimeHint": "python"
+    }
+  ]
+}

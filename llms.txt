@@ -1,0 +1,24 @@
+# meok-nhvr-australia-mcp
+
+> Australia National Heavy Vehicle Regulator (NHVR) compliance MCP. Heavy Vehicle National Law fatigue (BFM/AFM), NHVAS modules (Mass/Maintenance/Fatigue), Chain of Responsibility, Performance-Based Standards (PBS), Electronic Work Diary (EWD), state-specific rules. By MEOK AI Labs.
+
+MCP server by MEOK AI Labs. Framework: fastmcp. Transport: stdio.
+
+## Tools
+- check_fatigue_management
+- check_nhvas_module_compliance
+- check_chain_of_responsibility
+- check_pbs_vehicle_compliance
+- check_ewd_compliance
+- check_state_specific_rules
+- check_mass_management
+- prepare_nhvr_audit_pack
+
+## Install
+```
+pip install meok-nhvr-australia-mcp
+```
+
+## Links
+- PyPI: https://pypi.org/project/meok-nhvr-australia-mcp/
+- Docs: https://meok.ai
