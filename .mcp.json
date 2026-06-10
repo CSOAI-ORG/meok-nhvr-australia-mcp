@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "meok-nhvr-australia-mcp": {
+      "command": "uvx",
+      "args": [
+        "meok-nhvr-australia-mcp"
+      ]
+    }
+  }
+}
