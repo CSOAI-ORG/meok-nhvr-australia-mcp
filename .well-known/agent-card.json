@@ -1,0 +1,160 @@
+{
+  "name": "Meok Nhvr Australia Mcp",
+  "version": "1.0.0",
+  "url": "https://mcp.meok.ai/meok-nhvr-australia-mcp/a2a",
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "stateTransitionHistory": false
+  },
+  "protocolVersion": "0.3.0",
+  "description": "Australia National Heavy Vehicle Regulator (NHVR) compliance MCP. Heavy Vehicle National Law fatigue (BFM/AFM), NHVAS modules (Mass/Maintenance/Fatigue), Chain of Responsibility, Performance-Based Standards (PBS), Electronic Work Diary (EWD), state-specific rules. By MEOK AI Labs.",
+  "provider": {
+    "organization": "MEOK AI LABS",
+    "url": "https://meok.ai"
+  },
+  "defaultInputModes": [
+    "application/json",
+    "text/plain"
+  ],
+  "defaultOutputModes": [
+    "application/json",
+    "text/plain"
+  ],
+  "skills": [
+    {
+      "id": "check_fatigue_management",
+      "name": "Check Fatigue Management",
+      "description": "Check Fatigue Management — a tool of the meok-nhvr-australia-mcp MCP.",
+      "tags": [
+        "compliance"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "check_nhvas_module_compliance",
+      "name": "Check Nhvas Module Compliance",
+      "description": "Check Nhvas Module Compliance — a tool of the meok-nhvr-australia-mcp MCP.",
+      "tags": [
+        "compliance"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "check_chain_of_responsibility",
+      "name": "Check Chain Of Responsibility",
+      "description": "Check Chain Of Responsibility — a tool of the meok-nhvr-australia-mcp MCP.",
+      "tags": [
+        "compliance"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "check_pbs_vehicle_compliance",
+      "name": "Check Pbs Vehicle Compliance",
+      "description": "Check Pbs Vehicle Compliance — a tool of the meok-nhvr-australia-mcp MCP.",
+      "tags": [
+        "compliance"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "check_ewd_compliance",
+      "name": "Check Ewd Compliance",
+      "description": "Check Ewd Compliance — a tool of the meok-nhvr-australia-mcp MCP.",
+      "tags": [
+        "compliance"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "check_state_specific_rules",
+      "name": "Check State Specific Rules",
+      "description": "Check State Specific Rules — a tool of the meok-nhvr-australia-mcp MCP.",
+      "tags": [
+        "compliance"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "check_mass_management",
+      "name": "Check Mass Management",
+      "description": "Check Mass Management — a tool of the meok-nhvr-australia-mcp MCP.",
+      "tags": [
+        "compliance"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "prepare_nhvr_audit_pack",
+      "name": "Prepare Nhvr Audit Pack",
+      "description": "Prepare Nhvr Audit Pack — a tool of the meok-nhvr-australia-mcp MCP.",
+      "tags": [
+        "compliance"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    }
+  ],
+  "documentationUrl": "https://meok.ai",
+  "x-meok": {
+    "mcp_name": "meok-nhvr-australia-mcp",
+    "verifier": "https://proofof.ai/verify",
+    "governed_by": "CSOAI 52-article charter"
+  }
+}
